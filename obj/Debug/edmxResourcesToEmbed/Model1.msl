@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="informationSystemModelStoreContainer" CdmEntityContainer="informationSystemEntities">
+    <EntitySetMapping Name="Client">
+      <EntityTypeMapping TypeName="informationSystemModel.Client">
+        <MappingFragment StoreEntitySet="Client">
+          <ScalarProperty Name="idClient" ColumnName="idClient" />
+          <ScalarProperty Name="passwordClient" ColumnName="passwordClient" />
+          <ScalarProperty Name="loginClient" ColumnName="loginClient" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="phoneNumber" ColumnName="phoneNumber" />
+          <ScalarProperty Name="city" ColumnName="city" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionName="informationSystemModel.Store.F_Get_Client" FunctionImportName="F_Get_Client">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="informationSystemModel.F_Get_Client_Result">
+          <ScalarProperty Name="idCl" ColumnName="idCl" />
+          <ScalarProperty Name="fullName" ColumnName="fullName" />
+          <ScalarProperty Name="priceForStatement" ColumnName="priceForStatement" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="P_GetClientInfo" FunctionName="informationSystemModel.Store.P_GetClientInfo">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="informationSystemModel.P_GetClientInfo_Result">
+          <ScalarProperty Name="loginClient" ColumnName="loginClient" />
+          <ScalarProperty Name="firstName" ColumnName="firstName" />
+          <ScalarProperty Name="lastName" ColumnName="lastName" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="phoneNumber" ColumnName="phoneNumber" />
+          <ScalarProperty Name="city" ColumnName="city" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

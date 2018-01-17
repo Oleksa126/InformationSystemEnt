@@ -1,0 +1,14 @@
+C:\Users\User\source\repos\InformationSystemEnt\InformationSystemEnt\bin\Debug\InformationSystemEnt.exe.config
+C:\Users\User\source\repos\InformationSystemEnt\InformationSystemEnt\bin\Debug\InformationSystemEnt.exe
+C:\Users\User\source\repos\InformationSystemEnt\InformationSystemEnt\bin\Debug\InformationSystemEnt.pdb
+C:\Users\User\source\repos\InformationSystemEnt\InformationSystemEnt\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\InformationSystemEnt\InformationSystemEnt\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\InformationSystemEnt\InformationSystemEnt\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\InformationSystemEnt\InformationSystemEnt\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\InformationSystemEnt\InformationSystemEnt\obj\Debug\InformationSystemEnt.csprojResolveAssemblyReference.cache
+C:\Users\User\source\repos\InformationSystemEnt\InformationSystemEnt\obj\Debug\InformationSystemEnt.Properties.Resources.resources
+C:\Users\User\source\repos\InformationSystemEnt\InformationSystemEnt\obj\Debug\InformationSystemEnt.csproj.GenerateResource.Cache
+C:\Users\User\source\repos\InformationSystemEnt\InformationSystemEnt\obj\Debug\InformationSystemEnt.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\InformationSystemEnt\InformationSystemEnt\obj\Debug\InformationSystemEnt.exe
+C:\Users\User\source\repos\InformationSystemEnt\InformationSystemEnt\obj\Debug\InformationSystemEnt.pdb
+C:\Users\User\source\repos\InformationSystemEnt\InformationSystemEnt\obj\Debug\InformationSystemEnt.dwgView.resources
